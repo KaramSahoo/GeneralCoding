@@ -1,6 +1,6 @@
 public class find2smallest {
 
-	void search(int arr[]) { 
+	static void search(int arr[]) { 
 		int first, second, len = arr.length;
 		if(len<2) {
 			System.out.println("Invalid Input!!");
@@ -25,7 +25,7 @@ public class find2smallest {
 	}
 
 	public static void main(String[] args) {
-		arr[] = {1,6,4,9,8,5,7};
+		int arr[] = {1,6,4,9,8,5,7};
 		search(arr);
 	}
 }
